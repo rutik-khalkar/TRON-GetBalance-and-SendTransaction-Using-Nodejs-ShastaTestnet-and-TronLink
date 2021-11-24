@@ -1,0 +1,22 @@
+{
+  "name": "tron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon run index.js"
+  },
+  "author": "Rutik Khalkar",
+  "license": "ISC",
+  "dependencies": {
+    "@tronscan/client": "^0.2.77",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.12",
+    "nodemailer": "^6.7.0",
+    "trongrid": "^1.2.6",
+    "tronweb": "^4.0.0"
+  }
+}
